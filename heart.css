@@ -31,3 +31,6 @@
     top: -25px;
     left: 0px;
 }
+.heart:hover {
+    transform: scale(2);
+}
