@@ -17,30 +17,15 @@ body {
     width: 50%;
     height: 50vh;
     display: flex;
-    flex-wrap: wrap;
-     gap: 20px;
+    flex-wrap: wrap-reverse;
+    gap: 20px;
     flex-direction: row;
 }
 
 [class^="box-"] {
-
+    width: 100px;
     height: 100px;
     background-color: skyblue;
     border-radius: 10px;
 }
 
-.box-1{
-    flex-basis: 100px;
-}
-
-.box-2{
-    flex-grow:1;
-}
-
-.box-3{
-    flex-grow: 1 ;
-}
-
-.box-4{
-    flex-grow: 1;
-}
