@@ -18,7 +18,20 @@ body {
     height: 50vh;
     display: flex;
     flex-wrap: wrap;
-    /* gap: 20px; */
+     gap: 20px;
+    flex-direction: row;
+}
 
+.box-1 {
+    order: 0;
+}
 
+.box-2{
+    order: 3;
+}
+.box-3{
+    order: 2;
+}
+.box-4{
+    order: 1;
 }
