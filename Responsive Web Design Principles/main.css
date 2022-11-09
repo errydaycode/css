@@ -22,16 +22,25 @@ body {
     flex-direction: row;
 }
 
-.box-1 {
-    order: 0;
+[class^="box-"] {
+
+    height: 100px;
+    background-color: skyblue;
+    border-radius: 10px;
+}
+
+.box-1{
+    flex-grow: 1;
 }
 
 .box-2{
-    order: 3;
+    flex-grow: 1;
 }
+
 .box-3{
-    order: 2;
+    flex-grow: 1;
 }
+
 .box-4{
-    order: 1;
+    flex-grow: 1;
 }
