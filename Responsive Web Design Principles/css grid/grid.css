@@ -20,15 +20,15 @@ body {
 .container{
     display: grid;
     height: 100vh;
-    gap: 20px;
-    grid-template: repeat(12, 1fr) /repeat(12, 1fr);
+    gap: 25px;
+    grid-template: repeat(2, 1fr) /repeat(2, 1fr);
 
 }
 
 
 .box-1{
 
-   grid-column: 2/5;
+    place-self: end;
 }
 
 .box-2{
