@@ -19,23 +19,21 @@ body {
 
 .container{
     display: grid;
-    height: 100vh;
     gap: 20px;
-    grid-template-areas:
-    "A A A A    A A A A     A A A A"
-    "B B B B    B B B B     B B C C"
-    "B B B B    B B B B     B B C C";
+    grid-template: repeat(2, 1fr)/ repeat(2, 1fr);
+    height: 100vh;
+
 }
 
 
 .box-1{
-    grid-area: A;
+
 }
 
 .box-2{
-    grid-area: B;
+
 }
 
 .box-3{
-    grid-area: C;
+
 }
