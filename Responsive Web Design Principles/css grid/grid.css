@@ -19,9 +19,11 @@ body {
 
 .container{
     display: grid;
-    gap: 20px;
-    grid-template: repeat(2, 1fr)/ repeat(2, 1fr);
+    grid-template: repeat(2, 200px)/ repeat(2, 200px);
     height: 100vh;
+    gap: 20px;
+    justify-items: stretch;
+    justify-content: center;
 
 }
 
