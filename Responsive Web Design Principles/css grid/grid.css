@@ -19,23 +19,25 @@ body {
 
 .container{
     display: grid;
-    grid-template: repeat(2, 200px)/ repeat(2, 200px);
     height: 100vh;
     gap: 20px;
-    place-content: space-between;
-
+    grid-template: repeat(12, 1fr) /repeat(12, 1fr);
 
 }
 
 
 .box-1{
 
+   grid-column: 2/5;
 }
 
 .box-2{
-
 }
 
 .box-3{
+
+}
+
+.box-4{
 
 }
