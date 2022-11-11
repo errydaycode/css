@@ -3,24 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
-    display: grid;
-    gap: 20px;
-    grid-template-rows: 200px 200px;
-    grid-template-columns: 200px 200px;
-
-    justify-items : end;
-}
 body {
     font-family: sans-serif;
     font-size: 40px;
-    width: 100px;
+    width: 100%;
     min-height: 100vh;
 }
 
 [class^="box-"] {
-    background-color: coral;
+    background-color: skyblue;
     display: grid;
     place-items: center;
+
 }
 
+.container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 100px 300px auto 200px;
+}
