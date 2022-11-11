@@ -22,8 +22,8 @@ body {
     grid-template: repeat(2, 200px)/ repeat(2, 200px);
     height: 100vh;
     gap: 20px;
-    justify-items: stretch;
-    justify-content: center;
+    align-items: stretch;
+    align-content:space-between;
 
 }
 
