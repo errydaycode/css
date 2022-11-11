@@ -21,5 +21,21 @@ body {
     display: grid;
     height: 100vh;
     gap: 20px;
-    grid-template-rows: 100px 300px auto 80px;
+    grid-template-areas:
+    "A A A A    A A A A     A A A A"
+    "B B B B    B B B B     B B C C"
+    "B B B B    B B B B     B B C C";
+}
+
+
+.box-1{
+    grid-area: A;
+}
+
+.box-2{
+    grid-area: B;
+}
+
+.box-3{
+    grid-area: C;
 }
